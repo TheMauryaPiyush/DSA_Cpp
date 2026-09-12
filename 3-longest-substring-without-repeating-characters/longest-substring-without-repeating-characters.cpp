@@ -5,6 +5,7 @@ public:
         unordered_map<int,int> f;
         int low=0;
         int res=0;
+
         for(int high=0;high<n;high++)
         {
             f[s[high]]++;
