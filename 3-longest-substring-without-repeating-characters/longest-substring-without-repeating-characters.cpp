@@ -14,11 +14,9 @@ public:
                 f[s[low]]--;
                 low++;
             }
-            if(f[s[high]]==1)
-            {
                 int len = high - low + 1;
                 res = max(res,len);
-            }
+            
         }
         return res;
     }
