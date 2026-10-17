@@ -14,8 +14,7 @@ public:
                 f[s[low]]--;
                 low++;
             }
-            int len = high - low + 1;
-            res = max(res,len);
+            res = max(res,high-low+1);
         }
         return res;
     }
