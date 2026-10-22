@@ -13,7 +13,7 @@ public:
         long long n = s.size();
         long long low =0, res = INT_MIN;
 
-        vector<int> f(256);
+        vector<int> f(256,0);
         
         for(long long high = 0;high<n;high++){
             f[s[high]]++;
